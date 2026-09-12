@@ -9,7 +9,7 @@ const projects = [
     desc: "A smart image optimization tool built to quickly compress and reduce image sizes without sacrificing visible quality. Saves storage and speeds up web assets.",
     tech: ["Node.js", "Express", "Image API", "JavaScript"],
     icon: <ImageIcon className="w-5 h-5 text-indigo-400" />,
-    // 👇 यहाँ '#' हटाकर अपनी Media Shrink वेबसाइट का असली लिंक डालें
+    // 
     projectLink: "https://nikhildev161011-tech.github.io/Media-Shrink/" 
   },
   {
@@ -18,9 +18,17 @@ const projects = [
     desc: "A lightweight social video downloader enabling users to quickly fetch and save high-resolution short-form video reels smoothly.",
     tech: ["Node.js", "Backend Scripting", "REST APIs"],
     icon: <Download className="w-5 h-5 text-emerald-400" />,
-    // 👇 यहाँ '#' हटाकर अपनी ReelDrop वेबसाइट का असली लिंक डालें
+    // 
     projectLink: "https://nikhildev161011-tech.github.io/Reel-Drop/" 
-  }
+  },
+  {
+  icon: "message", 
+  category: "Real-time Messaging",
+  title: "Nix Space",
+  description: "A fast, responsive real-time chat application featuring service workers, smooth messaging architecture, and responsive full-stack flow.",
+  tags: ["Node.js", "JavaScript", "Express", "HTML/CSS"],
+  link: "https://nix-space.onrender.com"
+}
 ];
 
 export default function Projects() {
