@@ -13,7 +13,7 @@ export default function Contact() {
 
       {/* Social Links Cards */}
       <div className="flex flex-wrap justify-center gap-4">
-        {/* 1. Email: 'nikhilgupta@gmail.com' की जगह अपना असली ईमेल लिखें */}
+        {/* 1. Email: 'nikhil.dev161011@gmail.com' की जगह अपना असली ईमेल लिखें */}
         <a 
           href="mailto:nikhil.dev161011.com" 
           className="flex items-center gap-3 px-5 py-3 rounded-xl border border-zinc-800 bg-zinc-900/60 text-zinc-300 hover:text-white hover:border-zinc-700 hover:bg-zinc-900 transition-all text-sm font-medium"
