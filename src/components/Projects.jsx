@@ -4,12 +4,13 @@ import { ExternalLink, Layers, Image as ImageIcon, Download } from 'lucide-react
 
 const projects = [
   {
-    title: "Nix Space",
-    type: "Real-time Messaging",
-    desc: "A fast, responsive real-time chat application featuring service workers, smooth messaging architecture, and responsive full-stack flow.",
-    tech: ["Node.js", "JavaScript", "Express", "HTML/CSS"],
+    title: "DevCart",
+    type: "E-Commerce Platform",
+    desc: "A full-featured modern e-commerce web application with product browsing, cart management, seamless checkout experience, and responsive UI.",
+    tech: ["React", "Node.js", "Express", "Tailwind CSS"],
+    image: "/devcart.png.png",
     icon: <Download className="w-5 h-5 text-indigo-400" />,
-    projectLink: "https://nix-space.onrender.com"
+    projectLink: "https://ecommerce-frontend-9zxx.onrender.com"
   },
     {
     title: "ReelDrop",
@@ -56,6 +57,15 @@ export default function Projects() {
             className="group rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 flex flex-col justify-between transition-all hover:border-zinc-700 hover:bg-zinc-900/80 cursor-pointer block text-left"
           >
             <div>
+              {proj.image && (
+  <div className="w-full h-44 mb-4 overflow-hidden rounded-lg border border-zinc-800">
+    <img 
+      src={proj.image} 
+      alt={proj.title} 
+      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+    />
+  </div>
+)}
               <div className="flex items-center justify-between mb-4">
                 <div className="p-2.5 rounded-xl border border-zinc-800 bg-zinc-950">
                   {proj.icon}
