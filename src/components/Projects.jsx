@@ -23,24 +23,23 @@ const projects = [
     projectLink: "https://nix-space.onrender.com"
   },
   {
-    title: "Media Shrink",
-    type: "Image Compression Tool",
-    desc: "A smart image optimization tool built to quickly compress and reduce image sizes without sacrificing visible quality. Saves storage and speeds up web assets.",
-    tech: ["Node.js", "Express", "Image API", "JavaScript"],
-    icon: <ImageIcon className="w-5 h-5 text-indigo-400" />,
-    // 👇 यहाँ '#' हटाकर अपनी Media Shrink वेबसाइट का असली लिंक डालें
-    projectLink: "https://nikhildev161011-tech.github.io/Media-Shrink/" 
+    title: "DevCart",
+    type: "E-Commerce Platform",
+    desc: "A full-featured modern e-commerce web application with product browsing, cart management, seamless checkout experience, and responsive UI.",
+    tech: ["React", "Node.js", "Express", "Tailwind CSS"],
+    image: "devcart.png",
+    icon: <Download className="w-5 h-5 text-indigo-400" />,
+    projectLink: "https://ecommerce-frontend-9zxx.onrender.com"
   },
-  {
+    {
     title: "ReelDrop",
     type: "Media Downloader",
     desc: "A lightweight social video downloader enabling users to quickly fetch and save high-resolution short-form video reels smoothly.",
     tech: ["Node.js", "Backend Scripting", "REST APIs"],
     icon: <Download className="w-5 h-5 text-emerald-400" />,
-    // 👇 यहाँ '#' हटाकर अपनी ReelDrop वेबसाइट का असली लिंक डालें
+    // 
     projectLink: "https://nikhildev161011-tech.github.io/Reel-Drop/" 
   }
- 
 ];
 
 export default function Projects() {
