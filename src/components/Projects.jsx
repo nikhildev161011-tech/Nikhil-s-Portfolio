@@ -9,24 +9,6 @@ const projects = [
     type: "E-Commerce Platform",
     desc: "A full-featured modern e-commerce web application with product browsing, cart management, seamless checkout experience, and responsive UI.",
     tech: ["React", "Node.js", "Express", "Tailwind CSS"],
-    image: "/devcart.png.png",
-    icon: <Download className="w-5 h-5 text-indigo-400" />,
-    projectLink: "https://ecommerce-frontend-9zxx.onrender.com"
-  },
-  {
-    title: "Nix Space",
-    type: "Real-time Messaging",
-    desc: "A fast, responsive real-time chat application featuring service workers, smooth messaging architecture, and responsive full-stack flow.",
-    tech: ["Node.js", "JavaScript", "Express", "HTML/CSS"],
-    image: "/devcart.png.png",
-    icon: <Download className="w-5 h-5 text-indigo-400" />,
-    projectLink: "https://nix-space.onrender.com"
-  },
-  {
-    title: "DevCart",
-    type: "E-Commerce Platform",
-    desc: "A full-featured modern e-commerce web application with product browsing, cart management, seamless checkout experience, and responsive UI.",
-    tech: ["React", "Node.js", "Express", "Tailwind CSS"],
     image: "devcart.png",
     icon: <Download className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://ecommerce-frontend-9zxx.onrender.com"
@@ -36,6 +18,7 @@ const projects = [
     type: "Media Downloader",
     desc: "A lightweight social video downloader enabling users to quickly fetch and save high-resolution short-form video reels smoothly.",
     tech: ["Node.js", "Backend Scripting", "REST APIs"],
+    image: "reeldrop.png.png",
     icon: <Download className="w-5 h-5 text-emerald-400" />,
     // 
     projectLink: "https://nikhildev161011-tech.github.io/Reel-Drop/" 
