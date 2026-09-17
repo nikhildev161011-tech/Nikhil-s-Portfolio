@@ -8,7 +8,7 @@ const projects = [
     type: "E-Commerce Platform",
     desc: "A full-featured modern e-commerce web application with product browsing, cart management, seamless checkout experience, and responsive UI.",
     tech: ["React", "Node.js", "Express", "Tailwind CSS"],
-    image: "/devcart.png.png",
+    image: "/devcart.png",
     icon: <Download className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://ecommerce-frontend-9zxx.onrender.com"
   },
