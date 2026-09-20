@@ -11,7 +11,7 @@ const projects = [
     tech: ["React", "Node.js", "Express", "Tailwind CSS"],
     image: "devcart.png.png",
     icon: <Download className="w-5 h-5 text-indigo-400" />,
-    projectLink: "https://ecommerce-frontend-n1uxx5irz-nikhil-gupta1.vercel.app/"
+    projectLink: "https://ecommerce-frontend-ivory-rho.vercel.app/"
   },
   {
     title: "Media-Shrink",
