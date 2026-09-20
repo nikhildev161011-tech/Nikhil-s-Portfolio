@@ -13,6 +13,15 @@ const projects = [
     icon: <Download className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://ecommerce-frontend-9zxx.onrender.com"
   },
+  {
+    title: "Media-Shrink",
+    type: "Smart Image Optimization Tool",
+    desc: "A smart image optimization tool built to quickly compress and reduce image sizes without sacrificing visible quality. Saves storage and speeds up web assets.",
+    tech: ["Node.js", "Express", "Image API", "JavaScript"],
+    image: "/reeldrop.png", // Verify this matches the filename in your public folder
+    icon: download,
+    projectLink: "https://nikhildev161011-tech.github.io/Media-Shrink/"
+  },
     {
     title: "ReelDrop",
     type: "Media Downloader",
