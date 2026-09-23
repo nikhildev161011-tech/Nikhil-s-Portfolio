@@ -14,6 +14,15 @@ const projects = [
     projectLink: "https://ecommerce-frontend-ivory-rho.vercel.app/"
   },
   {
+    title: "CricZen",
+    type: "Cricket Scoring & Match Tracking App",
+    desc: "A real-time cricket scoring and match tracking platform inspired by CricHeroes. Features ball-by-ball updates, live scoreboards, match statistics, and team management.",
+    tech: ["React.js", "Tailwind CSS", "JavaScript", "State Management"],
+    image: "/criczen.png", 
+    icon: <Activity className="w-5 h-5 text-indigo-400" />,
+    projectLink: "https://nikhildev161011-tech.github.io/CricZen/"
+  },
+  {
     title: "Media-Shrink",
     type: "Smart Image Optimization Tool",
     desc: "A smart image optimization tool built to quickly compress and reduce image sizes without sacrificing visible quality. Saves storage and speeds up web assets.",
@@ -21,17 +30,8 @@ const projects = [
     image: "media.png", 
     icon: <Download className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://nikhildev161011-tech.github.io/Media-Shrink/"
-  },
-    {
-    title: "ReelDrop",
-    type: "Media Downloader",
-    desc: "A lightweight social video downloader enabling users to quickly fetch and save high-resolution short-form video reels smoothly.",
-    tech: ["Node.js", "Backend Scripting", "REST APIs"],
-    image: "reeldrop.png.png",
-    icon: <Download className="w-5 h-5 text-emerald-400" />,
-    // 
-    projectLink: "https://nikhildev161011-tech.github.io/Reel-Drop/" 
   }
+   
 ];
 
 export default function Projects() {
