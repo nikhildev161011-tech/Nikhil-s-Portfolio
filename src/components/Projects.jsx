@@ -8,7 +8,7 @@ const projects = [
     type: "E-Commerce Platform",
     desc: "A full-featured modern e-commerce web application with product browsing, cart management, seamless checkout experience, and responsive UI.",
     tech: ["React", "Node.js", "Express", "Tailwind CSS"],
-    image: "/devcart.png",
+    image: "devcart.png.png",
     icon: <Download className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://ecommerce-frontend-ivory-rho.vercel.app/"
   },
@@ -17,7 +17,7 @@ const projects = [
     type: "Cricket Scoring & Match Tracking App",
     desc: "A real-time cricket scoring and match tracking platform inspired by CricHeroes. Features ball-by-ball updates, live scoreboards, match statistics, and team management.",
     tech: ["React.js", "Tailwind CSS", "JavaScript", "State Management"],
-    image: "/criczen.png", 
+    image: "criczen.png", 
     icon: <Activity className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://nikhildev161011-tech.github.io/CricZen/"
   },
@@ -26,7 +26,7 @@ const projects = [
     type: "Smart Image Optimization Tool",
     desc: "A smart image optimization tool built to quickly compress and reduce image sizes without sacrificing visible quality. Saves storage and speeds up web assets.",
     tech: ["Node.js", "Express", "Image API", "JavaScript"],
-    image: "/media.png", 
+    image: "media.png", 
     icon: <Download className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://nikhildev161011-tech.github.io/Media-Shrink/"
   }
