@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Layers, Image as ImageIcon, Download } from 'lucide-react';
-import { image } from 'framer-motion/client';
+import { ExternalLink, Layers, Image as ImageIcon, Download, Activity } from 'lucide-react';
 
 const projects = [
   {
@@ -9,7 +8,7 @@ const projects = [
     type: "E-Commerce Platform",
     desc: "A full-featured modern e-commerce web application with product browsing, cart management, seamless checkout experience, and responsive UI.",
     tech: ["React", "Node.js", "Express", "Tailwind CSS"],
-    image: "devcart.png.png",
+    image: "/devcart.png",
     icon: <Download className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://ecommerce-frontend-ivory-rho.vercel.app/"
   },
@@ -27,11 +26,10 @@ const projects = [
     type: "Smart Image Optimization Tool",
     desc: "A smart image optimization tool built to quickly compress and reduce image sizes without sacrificing visible quality. Saves storage and speeds up web assets.",
     tech: ["Node.js", "Express", "Image API", "JavaScript"],
-    image: "media.png", 
+    image: "/media.png", 
     icon: <Download className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://nikhildev161011-tech.github.io/Media-Shrink/"
   }
-   
 ];
 
 export default function Projects() {
@@ -59,14 +57,14 @@ export default function Projects() {
           >
             <div>
               {proj.image && (
-  <div className="w-full h-44 mb-4 overflow-hidden rounded-lg border border-zinc-800">
-    <img 
-      src={proj.image} 
-      alt={proj.title} 
-      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-    />
-  </div>
-)}
+                <div className="w-full h-44 mb-4 overflow-hidden rounded-lg border border-zinc-800">
+                  <img 
+                    src={proj.image} 
+                    alt={proj.title} 
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              )}
               <div className="flex items-center justify-between mb-4">
                 <div className="p-2.5 rounded-xl border border-zinc-800 bg-zinc-950">
                   {proj.icon}
