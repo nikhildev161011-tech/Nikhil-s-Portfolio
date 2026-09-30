@@ -34,7 +34,7 @@ export default function App() {
 
       {/* 3. Footer */}
       <footer className="py-8 border-t border-zinc-900 text-center text-xs text-zinc-500">
-        © 2026 Nikhildev161011 || All Rights Reserved.
+        © 2026 nikhildev161011 || All Rights Reserved.
       </footer>
     </div>
   );
