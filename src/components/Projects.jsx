@@ -22,6 +22,15 @@ const projects = [
     projectLink: "https://nikhildev161011-tech.github.io/CricZen/"
   },
   {
+    title: "Pcimt",
+    type: "Ed Tech/Institute Website",
+    desc: "A modern and responsive website for a computer institute featuring course details, and inquiry management.",
+    tech: ["React.js", "Tailwind CSS", "JavaScript"],
+    image: "pcimt.png.png",
+    icon: <Activity className="w-5 h-5 text-indigo-400" />,
+    projectLink: "https://pcimt-frontend-qhhv.vercel.app/"
+  },
+  {
     title: "Media-Shrink",
     type: "Smart Image Optimization Tool",
     desc: "A smart image optimization tool built to quickly compress and reduce image sizes without sacrificing visible quality. Saves storage and speeds up web assets.",
