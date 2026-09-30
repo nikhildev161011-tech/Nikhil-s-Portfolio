@@ -17,7 +17,7 @@ const projects = [
     type: "Cricket Scoring & Match Tracking App",
     desc: "A real-time cricket scoring and match tracking platform inspired by CricHeroes. Features ball-by-ball updates, live scoreboards, match statistics, and team management.",
     tech: ["React.js", "Tailwind CSS", "JavaScript", "State Management"],
-    image: "criczen.png", 
+    image: "cricket.png", 
     icon: <Activity className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://nikhildev161011-tech.github.io/CricZen/"
   },
