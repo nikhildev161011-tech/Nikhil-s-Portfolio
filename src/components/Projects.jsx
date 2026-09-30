@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Layers, Image as ImageIcon, Download } from 'lucide-react';
-import { image } from 'framer-motion/client';
+import { ExternalLink, Layers, Image as ImageIcon, Download, Activity } from 'lucide-react';
 
 const projects = [
   {
@@ -18,7 +17,7 @@ const projects = [
     type: "Cricket Scoring & Match Tracking App",
     desc: "A real-time cricket scoring and match tracking platform inspired by CricHeroes. Features ball-by-ball updates, live scoreboards, match statistics, and team management.",
     tech: ["React.js", "Tailwind CSS", "JavaScript", "State Management"],
-    image: "/criczen.png", 
+    image: "criczen.png", 
     icon: <Activity className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://nikhildev161011-tech.github.io/CricZen/"
   },
@@ -31,7 +30,6 @@ const projects = [
     icon: <Download className="w-5 h-5 text-indigo-400" />,
     projectLink: "https://nikhildev161011-tech.github.io/Media-Shrink/"
   }
-   
 ];
 
 export default function Projects() {
@@ -59,14 +57,14 @@ export default function Projects() {
           >
             <div>
               {proj.image && (
-  <div className="w-full h-44 mb-4 overflow-hidden rounded-lg border border-zinc-800">
-    <img 
-      src={proj.image} 
-      alt={proj.title} 
-      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-    />
-  </div>
-)}
+                <div className="w-full h-44 mb-4 overflow-hidden rounded-lg border border-zinc-800">
+                  <img 
+                    src={proj.image} 
+                    alt={proj.title} 
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              )}
               <div className="flex items-center justify-between mb-4">
                 <div className="p-2.5 rounded-xl border border-zinc-800 bg-zinc-950">
                   {proj.icon}
